@@ -57,6 +57,9 @@ find $RPM_BUILD_ROOT -name '*.la' -exec rm -f {} ';'
 
 
 %changelog
+* Thu Apr 30 2020 Rob Gilton <rob@adventurousmachines.com> 3.8-1
+- new package built with tito
+
 * Tue Jun 13 2017 Rob Spanton <rob@adventurousmachines.com
 - Update to 3.8
 
